@@ -204,6 +204,16 @@ section {
   font-size: 0.9em;
 }
 
+.Github , .Linkedin{
+  background: var(--bg-color);
+  color: var(--primary-color);
+  display: flex;
+}
+
+a:visited , .Github , .Linkedin{
+  text-decoration: none;
+}
+
 @media (min-width: 640px) {
   .statsContainer {
       flex-direction: row;
