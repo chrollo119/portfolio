@@ -44,6 +44,45 @@ header {
   justify-content: space-between;
   gap: 14px;
 }
+ .h2{
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit; /* Inherits font styles from parent */
+  color: inherit; /* Inherits text color from parent */
+  cursor: pointer; /* Optional: Retain the pointer cursor */
+  transition: transform 0.1s ease-in-out;
+  font-size: 35px;
+ }
+ 
+.h2 :active{
+  transform: scale(0.95);
+}
+
+/* git-hub and linkin css */
+ .Github{
+  text-decoration: none;
+  color: inherit;
+ }
+
+ .Linkedin{
+  text-decoration: none;
+  color: inherit;
+ }
+.darkmode{
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit; /* Inherits font styles from parent */
+  color: inherit; /* Inherits text color from parent */
+  cursor: pointer; /* Optional: Retain the pointer cursor */
+  transition: transform 0.1s ease-in-out;
+ }
+ .darkmode:active{
+transform: scale(0.95);
+ }
 
 nav {
   color: var(--secondary-color);
@@ -202,16 +241,6 @@ section {
 
 .linkItem p {
   font-size: 0.9em;
-}
-
-.Github , .Linkedin{
-  background: var(--bg-color);
-  color: var(--primary-color);
-  display: flex;
-}
-
-a:visited , .Github , .Linkedin{
-  text-decoration: none;
 }
 
 @media (min-width: 640px) {
